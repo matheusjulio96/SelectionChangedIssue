@@ -164,7 +164,7 @@ namespace SelectionChangedIssue
         void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             count++;
-            DisplayAlert("Alert", $"The method runned {count} times", "OK");
+            DisplayAlert("Alert", $"The 'OnCollectionViewSelectionChanged' method runned {count} times", "OK");
         }
 
         public ObservableCollection<Monkey> Monkeys { get; private set; }
